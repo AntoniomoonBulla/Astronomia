@@ -12,5 +12,6 @@ archivo = open(r"C:\Users\Antonio\Documents\Astro - Visual Code\Astronomia\espec
 
 tabla = convertir_formato_csv(archivo)
 
-def leer_datos():
+
+def organizar_datos():
     pd.read_csv
