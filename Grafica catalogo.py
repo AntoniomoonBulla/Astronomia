@@ -22,11 +22,11 @@ wavelength_grafico = []
 intensidad_grafico = []
 
 for i in range(len(wavelength)):
-    if 5770 <= wavelength[i] <= 5780:
+    if 5845 <= wavelength[i] <= 5930:
         wavelength_grafico.append(wavelength[i])
 
 for i in range(len(intensidad)):
-    if 5770 <= wavelength[i] <= 5780:
+    if 5845 <= wavelength[i] <= 5930:
         intensidad_grafico.append(intensidad[i])
 
 
@@ -35,6 +35,13 @@ plt.plot(wavelength_grafico, intensidad_grafico, color="red")
 plt.xlabel("Wavelength")
 plt.ylabel("Intensity")
 plt.title("Spectral lines of the Sun")
-plt.grid()
 plt.tight_layout()
 plt.show()
+
+picos = scipy.signal.find_peaks(intensidad_grafico, distance=40)
+
+pixel = [wavelength_grafico[i] for i in picos[0]]
+
+diferencias = np.diff(pixel)
+
+print("La distancia entre los picos es: ", diferencias)
