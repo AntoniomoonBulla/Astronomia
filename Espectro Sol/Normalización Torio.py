@@ -25,6 +25,7 @@ def graficar_datos(pixel, intensidad):
     plt.title("Espectro del Torio")
     plt.xlabel("Pixel")
     plt.ylabel("Intensidad")
+    plt.savefig("Espectro Sol/Espectro del thorio.png")
     plt.show()
 
 pixel, intensidad = organizar_datos(tabla)
