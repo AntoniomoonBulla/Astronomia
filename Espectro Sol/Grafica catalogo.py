@@ -36,6 +36,7 @@ plt.xlabel("Wavelength")
 plt.ylabel("Intensity")
 plt.title("Spectral lines of the Sun")
 plt.tight_layout()
+plt.savefig("Espectro Sol/Catalogo en región Na.png")
 plt.show()
 
 picos = scipy.signal.find_peaks(intensidad_grafico, distance=40)
