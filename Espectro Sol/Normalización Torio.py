@@ -10,7 +10,7 @@ def convertir_formato_df(archivo):
     
     return columnas
 
-archivo = open(r"thorio.dat")
+archivo = open(r"Espectro Sol\thorio.dat")
 
 tabla = convertir_formato_df(archivo)
 
