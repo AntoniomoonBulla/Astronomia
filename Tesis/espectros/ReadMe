@@ -1,0 +1,393 @@
+J/PASP/107/1042                        Infrared Arcturus Atlas (Hinkle+ 1995)
+================================================================================
+Infrared Atlas of the Arcturus Spectrum, 0.9-5.3 microns
+     Hinkle K., Wallace L., Livingston W.
+    <Publ. Astron. Soc. Pac. 107, 1042 (1995)>
+    =1995PASP..107.1042H
+================================================================================
+ADC_Keywords: Spectra, infrared ; Spectrophotometry
+
+Abstract:
+    A spectral atlas of the infrared  spectrum  of  the  bright  K2  giant
+    Arcturus has been  completed using  the 4  meter Mayall  telescope and
+    FTS.   The  0.9-5.3um  spectrum  of  Arcturus  was  observed  at  high
+    signal-to-noise with a resolution  of  100,000.  Telluric  lines  were
+    removed  by   using  telluric  transmission   spectra  generated  from
+    McMath-Pierce  solar spectra or 4 meter lunar spectra. The spectrum of
+    Arcturus was  observed on two  different dates selected  to give large
+    opposite heliocentric shifts.  The spectra  observed on  the different
+    dates  have been independently corrected  for telluric absorption with
+    the result  that the  telluric spectrum  has been  effectively removed
+    from  all but the most obscured  wavelengths of the Arcturus spectrum.
+    We attempted to identify lines with central depths stronger than a few
+    percent. Identifications seem well in hand with the unidentified lines
+    apparently atomic  in origin. The atlas is  available either on an AAS
+    CD-ROM or as an ASP monograph.
+
+
+Description:
+    The  atlas  is  contained  in  310  spectral  files  a  list  of  line
+    identifications, plus a file  containing  a  list  of  the  files  and
+    unobserved spectral  regions. The spectral file names  are in the form
+    'abnnnnn'  where  'nnnnn'  denotes  the  spectral  region,  e.g.  file
+    'ab4300' contains spectra for the 4300-4325 cm-1 range. The atomic and
+    molecular  line   identifications  are   in  files   'appendix.a'  and
+    'appendix.b',  and repeated with a uniform format in file 'lines'. The
+    file  'appendix.c' is a book-keeping device used to correlate the plot
+    plages and spectral files  with  frequency.  See  the  author-supplied
+    description in 'readme.dat' for more information.
+
+Object:
+    -----------------------------------------------------------------
+       RA  (2000)   DE     Name(s)
+    -----------------------------------------------------------------
+    14 15 39.7  +19 10 57  HR 5340 = Arcturus = alpha Boo = HD 124897
+    -----------------------------------------------------------------
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl    Records    Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .  This file
+ab1867          89      901  Spectral atlas file  1866- 1875 cm-1 range
+ab1874          89      901  Spectral atlas file  1873- 1882 cm-1 range
+ab1881          89      901  Spectral atlas file  1880- 1889 cm-1 range
+ab1888          89      901  Spectral atlas file  1887- 1896 cm-1 range
+ab1895          89      901  Spectral atlas file  1894- 1903 cm-1 range
+ab1902          89      901  Spectral atlas file  1901- 1910 cm-1 range
+ab1909          89      901  Spectral atlas file  1908- 1917 cm-1 range
+ab1916          89      901  Spectral atlas file  1915- 1924 cm-1 range
+ab1923          89      901  Spectral atlas file  1922- 1931 cm-1 range
+ab1930          89      901  Spectral atlas file  1929- 1938 cm-1 range
+ab1937          89      901  Spectral atlas file  1936- 1945 cm-1 range
+ab1944          89      901  Spectral atlas file  1943- 1952 cm-1 range
+ab1951          89      901  Spectral atlas file  1950- 1959 cm-1 range
+ab1958          89      901  Spectral atlas file  1957- 1966 cm-1 range
+ab1965          89      901  Spectral atlas file  1964- 1973 cm-1 range
+ab1972          89      901  Spectral atlas file  1971- 1980 cm-1 range
+ab1979          89      901  Spectral atlas file  1978- 1987 cm-1 range
+ab1986          89      901  Spectral atlas file  1985- 1994 cm-1 range
+ab1993          89      901  Spectral atlas file  1992- 2001 cm-1 range
+ab2000          89      901  Spectral atlas file  1999- 2008 cm-1 range
+ab2007          89      901  Spectral atlas file  2006- 2015 cm-1 range
+ab2014          89      901  Spectral atlas file  2013- 2022 cm-1 range
+ab2021          89      901  Spectral atlas file  2020- 2029 cm-1 range
+ab2028          89      901  Spectral atlas file  2027- 2036 cm-1 range
+ab2035          89      901  Spectral atlas file  2034- 2043 cm-1 range
+ab2042          89      901  Spectral atlas file  2041- 2050 cm-1 range
+ab2049          89      901  Spectral atlas file  2048- 2057 cm-1 range
+ab2056          89      901  Spectral atlas file  2055- 2064 cm-1 range
+ab2063          89      901  Spectral atlas file  2062- 2071 cm-1 range
+ab2070          89      901  Spectral atlas file  2069- 2078 cm-1 range
+ab2077          89      901  Spectral atlas file  2076- 2085 cm-1 range
+ab2084          89      901  Spectral atlas file  2083- 2092 cm-1 range
+ab2091          89      901  Spectral atlas file  2090- 2099 cm-1 range
+ab2119          89      901  Spectral atlas file  2118- 2127 cm-1 range
+ab2126          89      901  Spectral atlas file  2125- 2134 cm-1 range
+ab2133          89      901  Spectral atlas file  2132- 2141 cm-1 range
+ab2140          89      901  Spectral atlas file  2139- 2148 cm-1 range
+ab2147          89      901  Spectral atlas file  2146- 2155 cm-1 range
+ab2154          89      901  Spectral atlas file  2153- 2162 cm-1 range
+ab2161          89      901  Spectral atlas file  2160- 2169 cm-1 range
+ab2168          89      901  Spectral atlas file  2167- 2176 cm-1 range
+ab2175          89      901  Spectral atlas file  2174- 2183 cm-1 range
+ab2182          89      901  Spectral atlas file  2181- 2190 cm-1 range
+ab2400          89     1801  Spectral atlas file  2398- 2416 cm-1 range
+ab2415          89     1801  Spectral atlas file  2413- 2431 cm-1 range
+ab2430          89     1801  Spectral atlas file  2428- 2446 cm-1 range
+ab2445          89     1801  Spectral atlas file  2443- 2461 cm-1 range
+ab2460          89     1801  Spectral atlas file  2458- 2476 cm-1 range
+ab2475          89     1801  Spectral atlas file  2473- 2491 cm-1 range
+ab2490          89     1801  Spectral atlas file  2488- 2506 cm-1 range
+ab2505          89     1801  Spectral atlas file  2503- 2521 cm-1 range
+ab2520          89     1801  Spectral atlas file  2518- 2536 cm-1 range
+ab2535          89     1801  Spectral atlas file  2533- 2551 cm-1 range
+ab2550          89     1801  Spectral atlas file  2548- 2566 cm-1 range
+ab2565          89     1801  Spectral atlas file  2563- 2581 cm-1 range
+ab2580          89     1801  Spectral atlas file  2578- 2596 cm-1 range
+ab2595          89     1801  Spectral atlas file  2593- 2611 cm-1 range
+ab2610          89     1801  Spectral atlas file  2608- 2626 cm-1 range
+ab2625          89     1801  Spectral atlas file  2623- 2641 cm-1 range
+ab2640          89     1801  Spectral atlas file  2638- 2656 cm-1 range
+ab2655          89     1801  Spectral atlas file  2653- 2671 cm-1 range
+ab2670          89     1801  Spectral atlas file  2668- 2686 cm-1 range
+ab2685          89     1801  Spectral atlas file  2683- 2701 cm-1 range
+ab2700          89     1801  Spectral atlas file  2698- 2716 cm-1 range
+ab2715          89     1801  Spectral atlas file  2713- 2731 cm-1 range
+ab2730          89     1801  Spectral atlas file  2728- 2746 cm-1 range
+ab2745          89     1801  Spectral atlas file  2743- 2761 cm-1 range
+ab2760          89     1801  Spectral atlas file  2758- 2776 cm-1 range
+ab2775          89     1801  Spectral atlas file  2773- 2791 cm-1 range
+ab2790          89     1801  Spectral atlas file  2788- 2806 cm-1 range
+ab2805          89     1801  Spectral atlas file  2803- 2821 cm-1 range
+ab2820          89     1801  Spectral atlas file  2818- 2836 cm-1 range
+ab2835          89     1801  Spectral atlas file  2833- 2851 cm-1 range
+ab2850          89     1801  Spectral atlas file  2848- 2866 cm-1 range
+ab2865          89     1801  Spectral atlas file  2863- 2881 cm-1 range
+ab2880          89     1801  Spectral atlas file  2878- 2896 cm-1 range
+ab2895          89     1801  Spectral atlas file  2893- 2911 cm-1 range
+ab2910          89     1801  Spectral atlas file  2908- 2926 cm-1 range
+ab2925          89     1801  Spectral atlas file  2923- 2941 cm-1 range
+ab2940          89     1801  Spectral atlas file  2938- 2956 cm-1 range
+ab2955          89     1801  Spectral atlas file  2953- 2971 cm-1 range
+ab2970          89     1801  Spectral atlas file  2968- 2986 cm-1 range
+ab2985          89     1801  Spectral atlas file  2983- 3001 cm-1 range
+ab3000          89     1801  Spectral atlas file  2998- 3016 cm-1 range
+ab3015          89     1801  Spectral atlas file  3013- 3031 cm-1 range
+ab3030          89     1801  Spectral atlas file  3028- 3046 cm-1 range
+ab3045          89     1801  Spectral atlas file  3043- 3061 cm-1 range
+ab3060          89     1801  Spectral atlas file  3058- 3076 cm-1 range
+ab3075          89     1801  Spectral atlas file  3073- 3091 cm-1 range
+ab3090          89     1801  Spectral atlas file  3088- 3106 cm-1 range
+ab3105          89     1801  Spectral atlas file  3103- 3121 cm-1 range
+ab3120          89     1801  Spectral atlas file  3118- 3136 cm-1 range
+ab3135          89     1801  Spectral atlas file  3133- 3156 cm-1 range
+ab3150          89     1801  Spectral atlas file  3148- 3171 cm-1 range
+ab3165          89     1801  Spectral atlas file  3163- 3186 cm-1 range
+ab3180          89     1801  Spectral atlas file  3178- 3201 cm-1 range
+ab3195          89     1801  Spectral atlas file  3193- 3216 cm-1 range
+ab3210          89     1801  Spectral atlas file  3208- 3231 cm-1 range
+ab3225          89     1801  Spectral atlas file  3223- 3246 cm-1 range
+ab3240          89     1801  Spectral atlas file  3238- 3261 cm-1 range
+ab3255          89     1801  Spectral atlas file  3253- 3276 cm-1 range
+ab3270          89     1801  Spectral atlas file  3268- 3291 cm-1 range
+ab3285          89     1801  Spectral atlas file  3283- 3306 cm-1 range
+ab3300          89     1801  Spectral atlas file  3298- 3321 cm-1 range
+ab3315          89     1801  Spectral atlas file  3313- 3336 cm-1 range
+ab3330          89     1801  Spectral atlas file  3328- 3351 cm-1 range
+ab3345          89     1801  Spectral atlas file  3343- 3366 cm-1 range
+ab3360          89     1801  Spectral atlas file  3358- 3381 cm-1 range
+ab3375          89     1801  Spectral atlas file  3373- 3396 cm-1 range
+ab3390          89     1801  Spectral atlas file  3388- 3411 cm-1 range
+ab3405          89     1801  Spectral atlas file  3403- 3426 cm-1 range
+ab3420          89     1801  Spectral atlas file  3418- 3441 cm-1 range
+ab3435          89     1801  Spectral atlas file  3433- 3456 cm-1 range
+ab3450          89     1801  Spectral atlas file  3448- 3471 cm-1 range
+ab4000          89     1500  Spectral atlas file  3997- 4027 cm-1 range
+ab4025          89     1500  Spectral atlas file  4022- 4052 cm-1 range
+ab4050          89     1500  Spectral atlas file  4047- 4077 cm-1 range
+ab4075          89     1500  Spectral atlas file  4072- 4102 cm-1 range
+ab4100          89     1500  Spectral atlas file  4097- 4127 cm-1 range
+ab4125          89     1500  Spectral atlas file  4122- 4152 cm-1 range
+ab4150          89     1500  Spectral atlas file  4147- 4177 cm-1 range
+ab4175          89     1500  Spectral atlas file  4172- 4202 cm-1 range
+ab4200          89     1500  Spectral atlas file  4197- 4227 cm-1 range
+ab4225          89     1500  Spectral atlas file  4222- 4252 cm-1 range
+ab4250          89     1500  Spectral atlas file  4247- 4277 cm-1 range
+ab4275          89     1500  Spectral atlas file  4272- 4302 cm-1 range
+ab4300          89     1500  Spectral atlas file  4297- 4327 cm-1 range
+ab4325          89     1500  Spectral atlas file  4322- 4352 cm-1 range
+ab4350          89     1500  Spectral atlas file  4347- 4377 cm-1 range
+ab4375          89     1500  Spectral atlas file  4372- 4402 cm-1 range
+ab4400          89     1500  Spectral atlas file  4397- 4427 cm-1 range
+ab4425          89     1500  Spectral atlas file  4422- 4452 cm-1 range
+ab4450          89     1500  Spectral atlas file  4447- 4477 cm-1 range
+ab4475          89     1500  Spectral atlas file  4472- 4502 cm-1 range
+ab4500          89     1500  Spectral atlas file  4497- 4527 cm-1 range
+ab4525          89     1500  Spectral atlas file  4522- 4552 cm-1 range
+ab4550          89     1500  Spectral atlas file  4547- 4577 cm-1 range
+ab4575          89     1500  Spectral atlas file  4572- 4602 cm-1 range
+ab4600          89     1500  Spectral atlas file  4597- 4627 cm-1 range
+ab4625          89     1500  Spectral atlas file  4622- 4652 cm-1 range
+ab4650          89     1500  Spectral atlas file  4647- 4677 cm-1 range
+ab4675          89     1500  Spectral atlas file  4672- 4702 cm-1 range
+ab4700          89     1500  Spectral atlas file  4697- 4727 cm-1 range
+ab4725          89     1500  Spectral atlas file  4722- 4752 cm-1 range
+ab4750          89     1500  Spectral atlas file  4747- 4777 cm-1 range
+ab4775          89     1500  Spectral atlas file  4772- 4802 cm-1 range
+ab4800          89     1500  Spectral atlas file  4797- 4827 cm-1 range
+ab4825          89     1500  Spectral atlas file  4822- 4852 cm-1 range
+ab4850          89     1500  Spectral atlas file  4847- 4877 cm-1 range
+ab4875          89     1500  Spectral atlas file  4872- 4902 cm-1 range
+ab4900          89     1500  Spectral atlas file  4897- 4927 cm-1 range
+ab4925          89     1500  Spectral atlas file  4922- 4952 cm-1 range
+ab4950          89     1500  Spectral atlas file  4947- 4977 cm-1 range
+ab4975          89     1500  Spectral atlas file  4972- 5002 cm-1 range
+ab5000          89     1500  Spectral atlas file  4997- 5027 cm-1 range
+ab5025          89     1500  Spectral atlas file  5022- 5052 cm-1 range
+ab5050          89     1500  Spectral atlas file  5047- 5077 cm-1 range
+ab5075          89     1500  Spectral atlas file  5072- 5102 cm-1 range
+ab5100          89     1500  Spectral atlas file  5097- 5127 cm-1 range
+ab5125          89     1500  Spectral atlas file  5122- 5152 cm-1 range
+ab5150          89     1500  Spectral atlas file  5147- 5177 cm-1 range
+ab5475          89     1500  Spectral atlas file  5472- 5502 cm-1 range
+ab5500          89     1500  Spectral atlas file  5497- 5527 cm-1 range
+ab5525          89     1500  Spectral atlas file  5522- 5552 cm-1 range
+ab5550          89     1500  Spectral atlas file  5547- 5577 cm-1 range
+ab5575          89     1500  Spectral atlas file  5572- 5602 cm-1 range
+ab5600          89     1500  Spectral atlas file  5597- 5627 cm-1 range
+ab5625          89     1500  Spectral atlas file  5622- 5652 cm-1 range
+ab5650          89     1500  Spectral atlas file  5647- 5677 cm-1 range
+ab5675          89     1500  Spectral atlas file  5672- 5702 cm-1 range
+ab5700          89     1500  Spectral atlas file  5697- 5727 cm-1 range
+ab5725          89     1500  Spectral atlas file  5722- 5752 cm-1 range
+ab5750          89     1500  Spectral atlas file  5747- 5777 cm-1 range
+ab5775          89     1500  Spectral atlas file  5772- 5802 cm-1 range
+ab5800          89     1500  Spectral atlas file  5797- 5827 cm-1 range
+ab5825          89     1500  Spectral atlas file  5822- 5852 cm-1 range
+ab5850          89     1500  Spectral atlas file  5847- 5877 cm-1 range
+ab5875          89     1500  Spectral atlas file  5872- 5902 cm-1 range
+ab5900          89     1500  Spectral atlas file  5897- 5927 cm-1 range
+ab5925          89     1500  Spectral atlas file  5922- 5952 cm-1 range
+ab5950          89     1500  Spectral atlas file  5947- 5977 cm-1 range
+ab5975          89     1500  Spectral atlas file  5972- 6002 cm-1 range
+ab6000          89     1500  Spectral atlas file  5997- 6027 cm-1 range
+ab6025          89     1500  Spectral atlas file  6022- 6052 cm-1 range
+ab6050          89     1500  Spectral atlas file  6047- 6077 cm-1 range
+ab6075          89     1500  Spectral atlas file  6072- 6102 cm-1 range
+ab6100          89     1500  Spectral atlas file  6097- 6127 cm-1 range
+ab6125          89     1500  Spectral atlas file  6122- 6152 cm-1 range
+ab6150          89     1500  Spectral atlas file  6147- 6177 cm-1 range
+ab6175          89     1500  Spectral atlas file  6172- 6202 cm-1 range
+ab6200          89     1500  Spectral atlas file  6197- 6227 cm-1 range
+ab6225          89     1500  Spectral atlas file  6222- 6252 cm-1 range
+ab6250          89     1500  Spectral atlas file  6247- 6277 cm-1 range
+ab6275          89     1500  Spectral atlas file  6272- 6302 cm-1 range
+ab6300          89     1500  Spectral atlas file  6297- 6327 cm-1 range
+ab6325          89     1500  Spectral atlas file  6322- 6352 cm-1 range
+ab6350          89     1500  Spectral atlas file  6347- 6377 cm-1 range
+ab6375          89     1500  Spectral atlas file  6372- 6402 cm-1 range
+ab6400          89     1500  Spectral atlas file  6397- 6427 cm-1 range
+ab6425          89     1500  Spectral atlas file  6422- 6452 cm-1 range
+ab6450          89     1500  Spectral atlas file  6447- 6477 cm-1 range
+ab6475          89     1500  Spectral atlas file  6472- 6502 cm-1 range
+ab6500          89     1500  Spectral atlas file  6497- 6527 cm-1 range
+ab6525          89     1500  Spectral atlas file  6522- 6552 cm-1 range
+ab6550          89     1500  Spectral atlas file  6547- 6577 cm-1 range
+ab6575          89     1500  Spectral atlas file  6572- 6602 cm-1 range
+ab6600          89     1500  Spectral atlas file  6597- 6627 cm-1 range
+ab6625          89     1500  Spectral atlas file  6622- 6652 cm-1 range
+ab6650          89     1500  Spectral atlas file  6647- 6677 cm-1 range
+ab7400          89      900  Spectral atlas file  7397- 7427 cm-1 range
+ab7425          89      900  Spectral atlas file  7422- 7452 cm-1 range
+ab7450          89      900  Spectral atlas file  7447- 7477 cm-1 range
+ab7475          89      900  Spectral atlas file  7472- 7502 cm-1 range
+ab7500          89      900  Spectral atlas file  7497- 7527 cm-1 range
+ab7525          89      900  Spectral atlas file  7522- 7552 cm-1 range
+ab7550          89      900  Spectral atlas file  7547- 7577 cm-1 range
+ab7575          89      900  Spectral atlas file  7572- 7602 cm-1 range
+ab7600          89      900  Spectral atlas file  7597- 7627 cm-1 range
+ab7625          89      900  Spectral atlas file  7622- 7652 cm-1 range
+ab7650          89      900  Spectral atlas file  7647- 7677 cm-1 range
+ab7675          89      900  Spectral atlas file  7672- 7702 cm-1 range
+ab7700          89      900  Spectral atlas file  7697- 7727 cm-1 range
+ab7725          89      900  Spectral atlas file  7722- 7752 cm-1 range
+ab7750          89      900  Spectral atlas file  7747- 7777 cm-1 range
+ab7775          89      900  Spectral atlas file  7772- 7802 cm-1 range
+ab7800          89      900  Spectral atlas file  7797- 7827 cm-1 range
+ab7825          89      900  Spectral atlas file  7822- 7852 cm-1 range
+ab7850          89      900  Spectral atlas file  7847- 7877 cm-1 range
+ab7875          89      900  Spectral atlas file  7872- 7902 cm-1 range
+ab7900          89      900  Spectral atlas file  7897- 7927 cm-1 range
+ab7925          89      900  Spectral atlas file  7922- 7952 cm-1 range
+ab7950          89      900  Spectral atlas file  7947- 7977 cm-1 range
+ab7975          89      900  Spectral atlas file  7972- 8002 cm-1 range
+ab8000          89      900  Spectral atlas file  7997- 8027 cm-1 range
+ab8025          89      900  Spectral atlas file  8022- 8052 cm-1 range
+ab8050          89      900  Spectral atlas file  8047- 8077 cm-1 range
+ab8075          89      900  Spectral atlas file  8072- 8102 cm-1 range
+ab8100          89      900  Spectral atlas file  8097- 8127 cm-1 range
+ab8125          89      900  Spectral atlas file  8122- 8152 cm-1 range
+ab8150          89      900  Spectral atlas file  8147- 8177 cm-1 range
+ab8175          89      900  Spectral atlas file  8172- 8202 cm-1 range
+ab8200          89      900  Spectral atlas file  8197- 8227 cm-1 range
+ab8225          89      900  Spectral atlas file  8222- 8252 cm-1 range
+ab8250          89      900  Spectral atlas file  8247- 8277 cm-1 range
+ab8275          89      900  Spectral atlas file  8272- 8302 cm-1 range
+ab8300          89      900  Spectral atlas file  8297- 8327 cm-1 range
+ab8325          89      900  Spectral atlas file  8322- 8352 cm-1 range
+ab8350          89      900  Spectral atlas file  8347- 8377 cm-1 range
+ab8375          89      900  Spectral atlas file  8372- 8402 cm-1 range
+ab8400          89      900  Spectral atlas file  8397- 8427 cm-1 range
+ab8425          89      900  Spectral atlas file  8422- 8452 cm-1 range
+ab8450          89      900  Spectral atlas file  8447- 8477 cm-1 range
+ab8475          89      900  Spectral atlas file  8472- 8502 cm-1 range
+ab8500          89      900  Spectral atlas file  8497- 8527 cm-1 range
+ab8525          89      900  Spectral atlas file  8522- 8552 cm-1 range
+ab8550          89      900  Spectral atlas file  8547- 8577 cm-1 range
+ab8575          89      900  Spectral atlas file  8572- 8602 cm-1 range
+ab8600          89      900  Spectral atlas file  8597- 8627 cm-1 range
+ab8625          89      900  Spectral atlas file  8622- 8652 cm-1 range
+ab8650          89      900  Spectral atlas file  8647- 8677 cm-1 range
+ab8675          89      900  Spectral atlas file  8672- 8702 cm-1 range
+ab8700          89      900  Spectral atlas file  8697- 8727 cm-1 range
+ab8725          89      900  Spectral atlas file  8722- 8752 cm-1 range
+ab8750          89      900  Spectral atlas file  8747- 8777 cm-1 range
+ab8775          89      900  Spectral atlas file  8772- 8802 cm-1 range
+ab8800          89      900  Spectral atlas file  8797- 8827 cm-1 range
+ab8825          89      900  Spectral atlas file  8822- 8852 cm-1 range
+ab8850          89      900  Spectral atlas file  8847- 8877 cm-1 range
+ab8875          89      900  Spectral atlas file  8872- 8902 cm-1 range
+ab8900          89     1421  Spectral atlas file  8896- 8953 cm-1 range
+ab8950          89     1421  Spectral atlas file  8946- 9003 cm-1 range
+ab9000          89     1421  Spectral atlas file  8996- 9053 cm-1 range
+ab9050          89     1421  Spectral atlas file  9046- 9103 cm-1 range
+ab9100          89     1421  Spectral atlas file  9096- 9153 cm-1 range
+ab9150          89     1421  Spectral atlas file  9146- 9203 cm-1 range
+ab9200          89     1421  Spectral atlas file  9196- 9253 cm-1 range
+ab9250          89     1421  Spectral atlas file  9246- 9303 cm-1 range
+ab9300          89     1421  Spectral atlas file  9296- 9353 cm-1 range
+ab9350          89     1421  Spectral atlas file  9346- 9403 cm-1 range
+ab9400          89     1421  Spectral atlas file  9396- 9453 cm-1 range
+ab9450          89     1421  Spectral atlas file  9446- 9503 cm-1 range
+ab9500          89     1421  Spectral atlas file  9496- 9553 cm-1 range
+ab9550          89     1421  Spectral atlas file  9546- 9603 cm-1 range
+ab9600          89     1421  Spectral atlas file  9596- 9653 cm-1 range
+ab9650          89     1421  Spectral atlas file  9646- 9703 cm-1 range
+ab9700          89     1421  Spectral atlas file  9696- 9753 cm-1 range
+ab9750          89     1421  Spectral atlas file  9746- 9803 cm-1 range
+ab9800          89     1421  Spectral atlas file  9796- 9853 cm-1 range
+ab9850          89     1421  Spectral atlas file  9846- 9903 cm-1 range
+ab9900          89     1421  Spectral atlas file  9896- 9953 cm-1 range
+ab9950          89     1421  Spectral atlas file  9946-10003 cm-1 range
+ab10000         89     1421  Spectral atlas file  9996-10053 cm-1 range
+ab10050         89     1421  Spectral atlas file 10046-10103 cm-1 range
+ab10100         89     1421  Spectral atlas file 10096-10153 cm-1 range
+ab10150         89     1421  Spectral atlas file 10146-10203 cm-1 range
+ab10200         89     1421  Spectral atlas file 10196-10253 cm-1 range
+ab10250         89     1421  Spectral atlas file 10246-10303 cm-1 range
+ab10300         89     1421  Spectral atlas file 10296-10353 cm-1 range
+ab10350         89     1421  Spectral atlas file 10346-10403 cm-1 range
+ab10400         89     1421  Spectral atlas file 10396-10453 cm-1 range
+ab10450         89     1421  Spectral atlas file 10446-10503 cm-1 range
+ab10500         89     1421  Spectral atlas file 10496-10553 cm-1 range
+ab10550         89     1421  Spectral atlas file 10546-10603 cm-1 range
+ab10600         89     1421  Spectral atlas file 10596-10653 cm-1 range
+ab10650         89     1421  Spectral atlas file 10646-10703 cm-1 range
+ab10700         89     1421  Spectral atlas file 10696-10753 cm-1 range
+ab10750         89     1421  Spectral atlas file 10746-10803 cm-1 range
+ab10800         89     1421  Spectral atlas file 10796-10853 cm-1 range
+ab10850         89     1421  Spectral atlas file 10846-10903 cm-1 range
+ab10900         89     1421  Spectral atlas file 10896-10953 cm-1 range
+appendix.a      15     1912  Atomic line identifications
+appendix.b      24     5091  Molecular line identifications
+appendix.c      38      322  List of spectral plots plus gap pages
+lines           40     6654  List of Atomic and Molecular identified lines
+readme.dat      80       92  Author-supplied description of the atlas
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: ab*
+--------------------------------------------------------------------------------
+ Bytes  Format  Units   Label     Explanations
+--------------------------------------------------------------------------------
+  1-11  F11.4   cm-1    Freq      Frequency scale in wavenumbers
+ 12-24  E13.5   ---     ObsS      Observed Arcturus spectrum in summer
+ 25-37  E13.5   ---     TelS      Telluric spectrum in summer
+ 38-50  E13.5   ---     RatS      Ratioed spectrum in summer
+ 51-63  E13.5   ---     ObsW      Observed Arcturus spectrum in winter
+ 64-76  E13.5   ---     TelW      Telluric spectrum in winter
+ 77-89  E13.5   ---     RatW      Ratioed spectrum in winter
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: lines
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   2- 10  F9.3  cm-1    Freq      Frequency in wavenumbers
+  12- 25  A14   ---     Name      Ion or Molecule name
+  27- 40  A14   ---     Note      Notes concerning the line
+--------------------------------------------------------------------------------
+
+Origin: AAS CD-ROM series, Volume 5, 1995         Lee Brotzman [ADS] 07-Nov-1995
+================================================================================
+(End)                                                         [CDS]  26-Jan-1996

@@ -1,0 +1,148 @@
+J/ApJS/94/221             New multiplet table for FeI     (Nave+, 1994)
+================================================================================
+A new multiplet table for FeI
+      Nave G., Johansson S., Learner R.C.M., Thorne A.P., Brault J.W.
+     <Astrophys. J. Suppl. Ser. 94, 221 (1994)>
+     =1994ApJS...94..221N      (SIMBAD/NED Reference)
+================================================================================
+ADC_Keywords: Atomic physics
+Keywords: atomic data - line: identification
+
+Abstract:
+    We have recorded spectra of iron-neon and iron-argon hollow cathode
+    lamps in the region 1700A-5um (59,000-2000cm^-1^), with Fourier
+    transform (FT) spectrometers at the National Solar Observatory,
+    Tucson, Arizona, and Imperial College, London, UK, and with a
+    high-resolution grating spectrograph at the National Institute of
+    Standards and Technology, Gaithersburg, Maryland. The uncertainty of
+    the strongest lines in the FT spectra is less than 0.002cm^-1^
+    (0.2mA at 3000A; 8mA at 2um). Pressure- and current-dependent shifts
+    are less than 0.001cm^-1^ for transitions between low-lying levels,
+    increasing to 0.006cm^-1^ for transitions between the most highly
+    excited levels. We report 28 new energy levels of Fe I and revised
+    values of another 818 levels. We have identified 9501 lines as due to
+    9759 transitions in Fe I, and these are presented in the form of a new
+    multiplet table and finding list. This compares with the ~5500 lines
+    due to 467 energy levels in the multiplet tables of Moore (1950, NBS
+    Circ., No.488 and 1959, NBS Tech. note 30). The biggest increase is in
+    the near-ultraviolet and near infrared, and many of the new lines are
+    present in the solar spectrum. Experimental log (gf) values are
+    included where they are available. A further 125 unidentified lines
+    due to Fe I are given.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl    Records    Explanations
+--------------------------------------------------------------------------------
+ReadMe          80          .    This file
+table1          47        846    Energy levels of FeI
+table2         131       9759    New multiplet table for FeI
+table4          26       9759    Finding list
+table5          27        125    Unidentified lines due to FeI
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1
+--------------------------------------------------------------------------------
+   Bytes Format  Units   Label    Explanations
+--------------------------------------------------------------------------------
+   1- 15  A15    ---     Config   Assigned configuration
+  17- 26  A10    ---     Term     Term, in order of lowest fine structure level
+      28  I1     ---     J        Level value
+      30  A1     ---   n_J        [*] '*' for 28 unpublished energy levels
+  32- 41  F10.3  cm-1    Level    Energy level
+  44- 47  F4.3   cm-1  e_Level    []? rms uncertainty on Level
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2
+--------------------------------------------------------------------------------
+   Bytes Format  Units  Label     Explanations
+--------------------------------------------------------------------------------
+   1-  4  I4     ---    Num       Multiplet number
+   6- 15  A10    ---    Term1     First term designation
+      16  A1     ---  n_Term1     Separation symbol '-'
+  17- 26  A10    ---    Term2     Second term designation
+      28  I1     ---    J1        First J value
+      29  A1     ---  n_J1        Separation symbol '-'
+      30  I1     ---    J2        Second J value
+  31- 36  A6     ---    I         Intensity of the line (1)
+  38- 47  F10.4  0.1nm  Lvac      Vacuum wavelength (2)
+  49- 58  F10.4  0.1nm  Lair      []? Air wavelength  (3)
+  60- 65  F6.1   0.1pm  Lo-R      []? Difference between observed and Ritz
+                                   wavelengths (4)
+  66- 75  F10.3  cm-1   Sigma     Measured wavenumber (5)
+      77  A1     ---  q_Sigma     [A-D] Quality of Sigma (6)
+  80- 83  I4     mK     So-R      []? Difference between observed and Ritz
+                                   wavenumbers (7)
+  85- 89  F5.3   eV     El        Excitation potential of lower level of
+                                   transition
+  91- 95  F5.3   eV     Eu        Excitation potential of upper level of
+                                   transition
+  97-105  F9.3  cm-1    Elc       El in units of cm-1
+ 107-115  F9.3  cm-1    Euc       Eu in units of cm-1
+ 117-122  F6.2   ---    log(gf)   []? Log of experimental gf values
+     124  A1     ---  r_log(gf)   [a-d] Source of log(gf) value (8)
+ 127-131  A5     ---    Blend     Species of blended line (9)
+--------------------------------------------------------------------------------
+Note (1): Intensity in arbitrary units. These are given as log(I) to two
+           decimal places for FT spectra. Grating intensities are on a
+           different scale to the FT intensities, and are from the
+           continuous hollow cathode spectra, except those in parentheses,
+           which are from the pulsed hollow cathode. Symbols are:
+           d: diffuse; b: blended; *: unresolved; ?: questionable.
+Note (2): Vacuum wavelength is derived from the measured wavenumber, Sigma.
+           Wavelengths measured in FT spectra are given to 4 decimal places
+           and those measured in grating spectra to 3 decimal places in the
+           UV. No grating spectra were recorded above 3250 A.
+Note (3): Air wavelengths for all lines above 2000 A have been derived
+           from the wavenumbers using Edlen dispersion formula given as
+           equation 2 in the printed paper. See also note (2).
+Note (4): Difference between observed wavelength and the Ritz wavelength
+           derived from the energy levels in table 1. This difference should
+           be subtracted from Lvac or Lair to obtain the Ritz wavelength.
+Note (5): Wavenumbers measured in FT spectra are given to 3 decimal places
+           and those measured in grating spectra to 2 decimal places.
+Note (6): Quality of measured wavenumber.
+             A:  Uncertainty  <  0.005 cm-1.
+             B:  Uncertainty  <  0.01 cm-1.
+             C:  Uncertainty  <  0.02 cm-1.
+             D:  Uncertainty  >  0.02 cm-1 or blended line
+           Wavelength uncertainties are given in table 3.
+Note (7): Difference between observed wavenumber and the Ritz wavenumber
+           derived from the energy levels in table 1. This difference should
+           be subtracted from Sigma to obtain the Ritz wavenumber.
+Note (8): Sources for log(gf) values are:
+            a:  O'Brian et al., 1991, J. Opt. Soc. Am., B8, 1185
+            b:  Fuhr et al., 1988, J. Phys. Chem. Ref. Data, 17, Suppl. 4
+            c:  Meylan et al., 1993ApJS...85..163M
+            d:  Johansson et al., 1994ApJ...429..419J
+Note (9): Species of blended line:
+            I:  Line blended with another Fe I transition
+           II:  Line blended with Fe II transition
+           Ne:  Line blended with Ne line
+           Ar:  Line blended with Ar line
+            R:  Line is self-reversed. Ritz wavelengths and wavenumber
+                 are given.
+            M:  Line is masked by another line of the given species.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table4
+--------------------------------------------------------------------------------
+   Bytes  Format  Units  Label     Explanations
+--------------------------------------------------------------------------------
+   1- 10  F10.4   0.1nm  Lambda    Vacuum (<2000A) or air (>2000A) wavelength
+  12- 20  F9.3    cm-1   Sigma     Wavenumber
+  23- 26  A4      ---    Num       Multiplet number
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table5
+--------------------------------------------------------------------------------
+   Bytes   Format  Units  Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5   F5.2    ---    I         Intensity
+   7- 16   F10.4   0.1nm  Lambda    Air wavelength
+  18- 27   F10.4   cm-1   Sigma     Wavenumber
+--------------------------------------------------------------------------------
+
+Origin: AAS CD-ROM series, Volume 3, 1995
+================================================================================
+(End)           Lee Brotzman [ADS] 10-Oct-94, Patricia Bauer [CDS]   16-Feb-1995
